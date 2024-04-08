@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { Button, Col, Row } from "reactstrap";
 import { ProductType } from "../services/products";
-import SuccessToast from "./SucessToast";
+import SuccessToast from "./SuccessToast";
 import { useCart } from "@/hooks/useCart";
 
 type ProductDetailsProps = {
